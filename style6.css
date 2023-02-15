@@ -1,0 +1,12 @@
+*{
+    background-color: rgb(241, 195, 125); 
+}
+
+.filmes h1{
+    display: flex;
+    justify-content: center;
+}
+.filmes video{
+    display: flex;
+    margin-top: 50px;
+}

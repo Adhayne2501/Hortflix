@@ -1,0 +1,161 @@
+*{ 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0;
+
+}
+
+.container{
+    width: 1400px;
+    margin: auto
+}
+
+.cabecalho{
+    padding: 10px;
+    background-color: rgb(231, 153, 35);
+    width: auto;
+    display: flex;
+    margin: auto;
+}
+
+p{
+    color: rgb(12, 8, 8);
+    margin: auto;
+}
+.logo{
+    display: flex;
+    background-color: rgb(58, 42, 13);
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 75px;
+    margin-left: 5px;
+}
+.carrinho{
+    margin-left: 80px;
+}
+.logo h3{
+    flex: 1;
+    margin: 20px;
+    color: #e79923;
+}
+.busca{
+    background-color: rgb(184, 98, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(184, 98, 0);
+    padding: 5px;
+}
+.busca img{
+    width: 30px;
+    right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+img{
+    width: 100px;
+}
+nav{
+    background: rgb(241, 226, 158);
+    padding: 1rem;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+
+}
+
+li a :hover{
+    color: rgb(163, 67, 131);
+
+
+}
+.container{
+    width: 1000px;
+    margin: auto;
+
+}
+.Quadrado{
+    width: 100px;
+    height: 100px;
+    background: rgb(207, 76, 126);
+}
+
+/* .circulo{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(241, 9, 9);
+    border-radius:50% ;
+} */
+
+    ul{
+        flex-direction: column ;
+        display:none 
+        }
+        nav:hover ul{
+            display: flex
+        }
+        li{
+            border-bottom: 2px solid rgb(41, 223, 168);
+            padding: 10px;
+        }
+        .container{
+            width: 100%;
+            display: flex;
+        }
+        .Quadrado{
+            display: none;
+        }
+        .circulo{
+            margin: auto;
+            margin-top: 10px;
+        }
+
+
+#caixa_busca{
+    display: none;
+}
+
+#caixa_busca.active{
+    display: block;
+}
+
+.caixa_pesquisa{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-entrar{
+    margin-left: -52px;
+}
+
+.contatos{
+   margin-top: 30px;
+   margin-left:30px;
+}
+
+.contatos{
+    background-color: rgb(241, 195, 125);
+    height: 100vh;
+    margin: auto;
+}
+.contatos h1{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 360px;
+    background-color: rgb(218, 167, 29);
+}
